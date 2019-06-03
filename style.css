@@ -1,0 +1,15 @@
+.container {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: #73AD21
+}
+
+body {
+    background-color:cornflowerblue;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+

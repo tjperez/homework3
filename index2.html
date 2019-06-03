@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework#3</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="index.html">Assigment #1</a>
+    <a href="index3.html">Assigment #6</a>
+    <a href="form.html">Form</a>
+</head>
+<body>
+    <div id="assign2">
+        <h1>Assigment #2</h1>
+        <p>2.Create an HTML page with a large element on the page that says, 
+            "Don't hover over me" inside of it. When you hover over the element, 
+            send an alert to the user that says, "Hey, I told you not to hover over me!</p>
+
+            <p id="test" onmouseover="mouseOver()"
+            onmouseout="mouseOut()">Don't hover over me</p>
+    </div>
+
+
+    <script>
+        function mouseOver(){
+            document.getElementById("test").innerHTML = "Hey, I told you not to hover over me"
+        }
+        function mouseOut(){
+            document.getElementById("test").innerHTML = "Don't hover over me"
+        }
+    </script>
+    
+
+   
+    
+</body>
+</html>
